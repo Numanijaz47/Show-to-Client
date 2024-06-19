@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Coming Back Soon | Vroomerz Exoticz</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <style>
+      body, html {
+         height: 100%;
+         margin: 0;
+         font-family: Arial, sans-serif;
+         color: #fff;
+         background: #000;
+         overflow: hidden;
+      }
+      .container {
+         height: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         background: url('images/smoke-bg.jpg') no-repeat center center/cover;
+      }
+      .overlay {
+         background: rgba(0, 0, 0, 0.7);
+         padding: 50px;
+         border-radius: 10px;
+      }
+      h1 {
+         font-size: 50px;
+         margin-bottom: 20px;
+      }
+      p {
+         font-size: 18px;
+      }
+      .contact-info a, .social-links a {
+         color: #fff;
+         text-decoration: none;
+         margin: 0 10px;
+         font-size: 20px;
+      }
+      .social-links i {
+         font-size: 30px;
+      }
+      .contact-info a:hover, .social-links a:hover {
+         color: #ff9900;
+      }
+      .moving-car {
+         position: absolute;
+         bottom: 85px;
+         left: 0;
+         width: 100px;
+         height: 100px;
+         background: url('images/car-icon.png') no-repeat center center/contain;
+         animation: moveCar 5s linear infinite;
+      }
+      @keyframes moveCar {
+         0% {
+            transform: translateX(-100px);
+         }
+         100% {
+            transform: translateX(calc(100vw + 100px));
+         }
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <div class="overlay">
+         <img src="images/PHOTO-2023-10-01-10-36-08 2.jpg" alt="Vroomerz Exoticz Logo" width="200">
+         <h1>Coming Back Soon</h1>
+         <p>We're making some updates to bring you a better experience. Stay tuned!</p>
+         <div class="contact-info">
+            <p>Contact us:</p>
+            <a href="tel:+1234567890"><i class="fas fa-phone"></i> +1 (234) 567-890</a>
+            <a href="mailto:info@vroomerzexoticz.com"><i class="fas fa-envelope"></i> info@vroomerzexoticz.com</a>
+            <p>Miami, Florida</p>
+         </div>
+         <div class="social-links">
+            <p>Follow us:</p>
+            <a href="https://twitter.com/vroomerzexoticz" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/vroomerzexoticz" target="_blank"><i class="fab fa-instagram"></i></a>
+         </div>
+         <p>&copy; 2024 Vroomerz Exoticz. All rights reserved.</p>
+      </div>
+   </div>
+   <div class="moving-car"><img src="images/old-american-muscle-car-isolated.png" alt=""></div>
+
+   <!-- Bootstrap JS -->
+   <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+   <script src="jquery/jquery-3.7.1.min.js"></script>
+</body>
+</html>
